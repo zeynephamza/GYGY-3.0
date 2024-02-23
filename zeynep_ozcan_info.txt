@@ -3,3 +3,4 @@ Okul/Mezuniyet: Gebze Teknik Üniversitesi- Bilgisayar Mühendisliği/ Mezun
 Yas: 27
 Swift Bilgisi: Temel
 Bildigi baska diller: C, C++, Java, Python, MIPS Assembly, Verilog
+Linkedin: https://www.linkedin.com/in/zeynep-hamza-ozcan/
