@@ -17,7 +17,7 @@ print("Question 1\n")
 var myStr = "aaba kouq bux"
 
 
-let number = 3
+let number = 4
 var myNewStr = ""
 let strLength = myStr.count
 var charCount = 0
@@ -51,7 +51,7 @@ if strLength > 0 {
     print(myStr) // prints result
 
     
-}else {  // for empty string
+} else {  // for empty string
     print("")
 }
 print("--------------------\n")
@@ -160,7 +160,7 @@ while sumOfEvens < maxValue {
         if j % 2 == 0 {
             sumOfEvens = sumOfEvens + i + j
             
-        }else {
+        } else {
             // Loops for finding a second even number to add the first even number
             while j % 2 != 0 {
 //                evenTemp = i
@@ -170,12 +170,12 @@ while sumOfEvens < maxValue {
                 
             }
             // if this is the first turn, adds the first number
-            if flag == 0{
+            if flag == 0 {
                 sumOfEvens = sumOfEvens + evenTemp + j
                 flag = 1
             
             // Else, keeps adding only the second numbers
-            }else{
+            } else {
                 // end the loop so we have an even number.
                 sumOfEvens += j
             }
@@ -203,6 +203,8 @@ func isPrime (num: Int) -> Bool {
     if n <= 1 {
         return false
     }
+    
+//    TO DO: Asal sayıyı daha verimli bul.
     var i = 2
     while i <= n/i {
         if n % i == 0 {

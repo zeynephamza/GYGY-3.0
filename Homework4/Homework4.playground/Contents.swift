@@ -14,7 +14,7 @@
 import Foundation
 
 // Constant global value
-let number = 10
+let number = 100
 
 func squaredSums(_ n: Int) -> Int {
     var sum = (number * (number + 1) / 2)

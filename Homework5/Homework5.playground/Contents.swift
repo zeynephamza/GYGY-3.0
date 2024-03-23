@@ -25,7 +25,7 @@ func addPlusMinus() {
             print("-", terminator: "")
         }
     }
-    print("")
+    print("") // println
 }
 
 addPlusMinus()
