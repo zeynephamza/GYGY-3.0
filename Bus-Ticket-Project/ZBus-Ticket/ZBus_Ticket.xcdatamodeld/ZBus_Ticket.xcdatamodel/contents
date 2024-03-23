@@ -3,4 +3,7 @@
     <entity name="Entity" representedClassName="Entity" syncable="YES" codeGenerationType="class">
         <attribute name="isNewUser" attributeType="Boolean" defaultValueString="NO" usesScalarValueType="YES"/>
     </entity>
+    <entity name="SeatAvailability" representedClassName="SeatAvailability" syncable="YES" codeGenerationType="class">
+        <attribute name="seatsDC" optional="YES" attributeType="Transformable"/>
+    </entity>
 </model>

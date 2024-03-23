@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import CoreData
 
 class ViewController: UIViewController {
     
@@ -25,10 +26,20 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
+
     override func viewDidLayoutSubviews() {
         super.viewDidLayoutSubviews()
-            
+        
+        // First time the user install the app
         if Core.share.isNewUser() {
+            var token = "testdeneme"
+            var filledseats = "111111000000000000000000000000000000000000000"
+            
+            UserDefaults.standard.set(token, forKey: "mytoken")
+            UserDefaults.standard.set(filledseats, forKey: "filledSeatsCore")
+            UserDefaults.standard.synchronize()
+            //setSeatsToCore(filledseats)
+            
             // show onboarding
             let vc = storyboard?.instantiateViewController(withIdentifier: "onboarding") as! OnboardingViewController
             Core.share.setIsNotNewUser()
@@ -36,6 +47,22 @@ class ViewController: UIViewController {
             present(vc, animated: true)
         }
     }
+/*
+    func setSeatsToCore(_ seats: [Int] ){
+        let context = getContext()
+        let seatentity = NSEntityDescription.entity(forEntityName: "SeatAvailability", in: context)
+        
+        let seatThatSave = NSManagedObject(entity: seatentity!, insertInto: context)
+        
+        seatThatSave.setValue(seats, forKey: "seatsDC")
+        
+        (UIApplication.shared.delegate as! AppDelegate).saveContext()
+    }
+    
+    func getContext() -> NSManagedObjectContext {
+        return (UIApplication.shared.delegate as! AppDelegate).persistentContainer.viewContext
+    }
+    */
     
     //If the user clicks next, the information has been
     //entered and this information is saved.
@@ -48,11 +75,11 @@ class ViewController: UIViewController {
             enteredFrom.text!.isEmpty
         {
           
-            showAlertMessage(title: "Alert", message: "Please Check Informations before continue.")
+            showAlertMessage(title: "Alert", message: "Please check the informations before continue.")
             
         } else {
             if enteredID.text?.isInt == false {
-                showAlertMessage(title: "Alert", message: "The ID must be an numerical.")
+                showAlertMessage(title: "Alert", message: "The ID must be a numerical number.")
             }
             else {
                 passenger = Passenger(name: enteredName.text!, surname: enteredSurname.text!, id: Int(enteredID.text!)!)
