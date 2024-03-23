@@ -1,0 +1,689 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "811B988B-0F1E-4EFE-98E0-0973895AEDE9"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "24253705-0CDD-4728-BAA2-9AB1AD3CFDA0"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ZBus-Ticket/Controllers/Onboarding/OnboardingViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "108"
+            endingLineNumber = "108"
+            landmarkName = "didTapButton(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "95216721-1551-40EE-AFD7-303AAA0EE28C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ZBus-Ticket/Controllers/Onboarding/OnboardingViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "97"
+            endingLineNumber = "97"
+            landmarkName = "didTapButton(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "95216721-1551-40EE-AFD7-303AAA0EE28C - 5bbc87648f5a704f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ZBus_Ticket.OnboardingViewController.didTapButton(__C.UIButton) -&gt; ()"
+                  moduleName = "ZBus-Ticket"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zeynepozcan/Desktop/deneme/dene/onboarding/login/ZBus-Ticket/ZBus-Ticket/Controllers/Onboarding/OnboardingViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "98"
+                  endingLineNumber = "98"
+                  offsetFromSymbolStart = "1176">
+               </Location>
+               <Location
+                  uuid = "95216721-1551-40EE-AFD7-303AAA0EE28C - 5bbc87648f5a706e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ZBus_Ticket.OnboardingViewController.didTapButton(__C.UIButton) -&gt; ()"
+                  moduleName = "ZBus-Ticket"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zeynepozcan/Desktop/deneme/dene/onboarding/login/ZBus-Ticket/ZBus-Ticket/Controllers/Onboarding/OnboardingViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "97"
+                  endingLineNumber = "97"
+                  offsetFromSymbolStart = "1184">
+               </Location>
+               <Location
+                  uuid = "95216721-1551-40EE-AFD7-303AAA0EE28C - 5bbc87648f5a706e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ZBus_Ticket.OnboardingViewController.didTapButton(__C.UIButton) -&gt; ()"
+                  moduleName = "ZBus-Ticket"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zeynepozcan/Desktop/deneme/dene/onboarding/login/ZBus-Ticket/ZBus-Ticket/Controllers/Onboarding/OnboardingViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "97"
+                  endingLineNumber = "97"
+                  offsetFromSymbolStart = "1432">
+               </Location>
+               <Location
+                  uuid = "95216721-1551-40EE-AFD7-303AAA0EE28C - 5bbc87648f5a706e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ZBus_Ticket.OnboardingViewController.didTapButton(__C.UIButton) -&gt; ()"
+                  moduleName = "ZBus-Ticket"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zeynepozcan/Desktop/deneme/dene/onboarding/login/ZBus-Ticket/ZBus-Ticket/Controllers/Onboarding/OnboardingViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "97"
+                  endingLineNumber = "97"
+                  offsetFromSymbolStart = "1196">
+               </Location>
+               <Location
+                  uuid = "95216721-1551-40EE-AFD7-303AAA0EE28C - 5bbc87648f5a706e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ZBus_Ticket.OnboardingViewController.didTapButton(__C.UIButton) -&gt; ()"
+                  moduleName = "ZBus-Ticket"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zeynepozcan/Desktop/deneme/dene/onboarding/login/ZBus-Ticket/ZBus-Ticket/Controllers/Onboarding/OnboardingViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "97"
+                  endingLineNumber = "97"
+                  offsetFromSymbolStart = "1200">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5E4AF9BB-55B2-4565-9D33-C1EBF5D0455F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ZBus-Ticket/Controllers/Onboarding/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "62"
+            endingLineNumber = "62"
+            landmarkName = "saveUserInfo(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "5E4AF9BB-55B2-4565-9D33-C1EBF5D0455F - 5e67166985eadb99"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ZBus_Ticket.ViewController.saveUserInfo(__C.UIButton) -&gt; ()"
+                  moduleName = "ZBus-Ticket"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zeynepozcan/Desktop/deneme/dene/onboarding/login/ZBus-Ticket/ZBus-Ticket/Controllers/Onboarding/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "60"
+                  endingLineNumber = "60"
+                  offsetFromSymbolStart = "4080">
+               </Location>
+               <Location
+                  uuid = "5E4AF9BB-55B2-4565-9D33-C1EBF5D0455F - 5e67166985eadbdb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ZBus_Ticket.ViewController.saveUserInfo(__C.UIButton) -&gt; ()"
+                  moduleName = "ZBus-Ticket"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zeynepozcan/Desktop/deneme/dene/onboarding/login/ZBus-Ticket/ZBus-Ticket/Controllers/Onboarding/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "62"
+                  endingLineNumber = "62"
+                  offsetFromSymbolStart = "4056">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "99015934-6C62-418E-A2F4-3E0FCB4B2287"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ZBus-Ticket/Controllers/Seats/SeatsViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "60"
+            endingLineNumber = "60"
+            landmarkName = "purchaseTicket(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "99015934-6C62-418E-A2F4-3E0FCB4B2287 - 41b0251520d4f220"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ZBus_Ticket.SeatsViewController.purchaseTicket(__C.UIButton) -&gt; ()"
+                  moduleName = "ZBus-Ticket"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zeynepozcan/Desktop/deneme/dene/onboarding/login/ZBus-Ticket/ZBus-Ticket/Controllers/Seats/SeatsViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "52"
+                  endingLineNumber = "52"
+                  offsetFromSymbolStart = "392">
+               </Location>
+               <Location
+                  uuid = "99015934-6C62-418E-A2F4-3E0FCB4B2287 - 41b0251520d4f220"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ZBus_Ticket.SeatsViewController.purchaseTicket(__C.UIButton) -&gt; ()"
+                  moduleName = "ZBus-Ticket"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zeynepozcan/Desktop/deneme/dene/onboarding/login/ZBus-Ticket/ZBus-Ticket/Controllers/Seats/SeatsViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "52"
+                  endingLineNumber = "52"
+                  offsetFromSymbolStart = "844">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7B3BAAB6-7474-42F4-8EF2-854E6324EE8E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ZBus-Ticket/Controllers/Seats/SeatsViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "69"
+            endingLineNumber = "69"
+            landmarkName = "purchaseTicket(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "87CE1540-BA69-4AE2-9B28-AF8A677C30B4"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ZBus-Ticket/Controllers/Seats/SeatsViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "75"
+            endingLineNumber = "75"
+            landmarkName = "purchaseTicket(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "91FD9D38-1354-477B-9036-A8E2F73095B1"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ZBus-Ticket/Controllers/Seats/SeatsViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "77"
+            endingLineNumber = "77"
+            landmarkName = "purchaseTicket(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "14155060-FF7A-4067-9247-4AE4E42925D2"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ZBus-Ticket/Controllers/Seats/SeatsViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "71"
+            endingLineNumber = "71"
+            landmarkName = "purchaseTicket(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8B2CAABB-E1B7-46E4-A966-843D647307BA"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ZBus-Ticket/Controllers/SeatsViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
+            landmarkName = "SeatsViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "8B2CAABB-E1B7-46E4-A966-843D647307BA - 35e624c82d06d3b2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ZBus_Ticket.SeatsViewController.seatCellImages.getter : Swift.Array&lt;Swift.Optional&lt;__C.UIImage&gt;&gt;"
+                  moduleName = "ZBus-Ticket"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zeynepozcan/Desktop/deneme/dene/onboarding/login/ZBus-Ticket/ZBus-Ticket/Controllers/SeatsViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  uuid = "8B2CAABB-E1B7-46E4-A966-843D647307BA - 74c07dde33c22ffc"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ZBus_Ticket.SeatsViewController.seatCellImages.setter : Swift.Array&lt;Swift.Optional&lt;__C.UIImage&gt;&gt;"
+                  moduleName = "ZBus-Ticket"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zeynepozcan/Desktop/deneme/dene/onboarding/login/ZBus-Ticket/ZBus-Ticket/Controllers/SeatsViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "8B2CAABB-E1B7-46E4-A966-843D647307BA - efb5a6a30be1af92"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ZBus_Ticket.SeatsViewController.seatCellImages.modify : Swift.Array&lt;Swift.Optional&lt;__C.UIImage&gt;&gt;"
+                  moduleName = "ZBus-Ticket"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zeynepozcan/Desktop/deneme/dene/onboarding/login/ZBus-Ticket/ZBus-Ticket/Controllers/SeatsViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "8B2CAABB-E1B7-46E4-A966-843D647307BA - 2175f9d8af4e0731"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ZBus_Ticket.SeatsViewController.seatCellImages.modify : Swift.Array&lt;Swift.Optional&lt;__C.UIImage&gt;&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "ZBus-Ticket"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zeynepozcan/Desktop/deneme/dene/onboarding/login/ZBus-Ticket/%3Ccompiler-generated%3E"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  uuid = "8B2CAABB-E1B7-46E4-A966-843D647307BA - fbc8874e689c06a4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ZBus_Ticket.SeatsViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; ZBus_Ticket.SeatsViewController"
+                  moduleName = "ZBus-Ticket"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zeynepozcan/Desktop/deneme/dene/onboarding/login/ZBus-Ticket/ZBus-Ticket/Controllers/SeatsViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "2400">
+               </Location>
+               <Location
+                  uuid = "8B2CAABB-E1B7-46E4-A966-843D647307BA - 41ed1d7335ac779f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ZBus_Ticket.SeatsViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;ZBus_Ticket.SeatsViewController&gt;"
+                  moduleName = "ZBus-Ticket"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zeynepozcan/Desktop/deneme/dene/onboarding/login/ZBus-Ticket/ZBus-Ticket/Controllers/SeatsViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "2376">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0477A247-E73A-41F6-A5B6-17210511EF36"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ZBus-Ticket/Controllers/SeatsViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "54"
+            endingLineNumber = "54"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4A37B490-4F7E-463E-8341-D41555F6DE8F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ZBus-Ticket/Models/Ticket.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "42"
+            endingLineNumber = "42"
+            landmarkName = "print()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8CFEF762-4819-4C7C-9E4C-84521253DE52"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ZBus-Ticket/Controllers/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "54"
+            endingLineNumber = "54"
+            landmarkName = "saveUserInfo(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "72D696E6-EC06-40F0-9096-7E191952D0FB"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ZBus-Ticket/Controllers/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "58"
+            endingLineNumber = "58"
+            landmarkName = "saveUserInfo(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F407E516-74C5-4BD5-8079-ABD10FEE063A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ZBus-Ticket/Controllers/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "55"
+            endingLineNumber = "55"
+            landmarkName = "saveUserInfo(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5D987A89-38AC-4716-8A7D-FC421BF1E1D8"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ZBus-Ticket/Controllers/SeatsViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "72"
+            endingLineNumber = "72"
+            landmarkName = "purchaseTicket(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "5D987A89-38AC-4716-8A7D-FC421BF1E1D8 - 82ef3dd2e4bc4f9e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ZBus_Ticket.SeatsViewController.purchaseTicket(__C.UIButton) -&gt; ()"
+                  moduleName = "ZBus-Ticket"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zeynepozcan/Desktop/deneme/dene/onboarding/login/ZBus-Ticket/ZBus-Ticket/Controllers/SeatsViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "71"
+                  endingLineNumber = "71"
+                  offsetFromSymbolStart = "748">
+               </Location>
+               <Location
+                  uuid = "5D987A89-38AC-4716-8A7D-FC421BF1E1D8 - 82ef3dd2e4bc4f9e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ZBus_Ticket.SeatsViewController.purchaseTicket(__C.UIButton) -&gt; ()"
+                  moduleName = "ZBus-Ticket"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zeynepozcan/Desktop/deneme/dene/onboarding/login/ZBus-Ticket/ZBus-Ticket/Controllers/SeatsViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "71"
+                  endingLineNumber = "71"
+                  offsetFromSymbolStart = "764">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B1D814B1-4F9B-4BD3-9EA6-8F9EBEF94A0A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ZBus-Ticket/Controllers/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
+            landmarkName = "viewDidLayoutSubviews()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3DE08667-040B-4064-85A8-42124424578A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ZBus-Ticket/Controllers/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "33"
+            endingLineNumber = "33"
+            landmarkName = "viewDidLayoutSubviews()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "AC454D57-216C-496E-815F-10E0F535F0E1"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ZBus-Ticket/Controllers/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "104"
+            endingLineNumber = "104"
+            landmarkName = "setIsNotNewUser()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "AC454D57-216C-496E-815F-10E0F535F0E1 - 603a9620daf8db4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ZBus_Ticket.Core.setIsNotNewUser() -&gt; ()"
+                  moduleName = "ZBus-Ticket"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zeynepozcan/Desktop/deneme/dene/onboarding/login/ZBus-Ticket/ZBus-Ticket/Controllers/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "105"
+                  endingLineNumber = "105"
+                  offsetFromSymbolStart = "24">
+               </Location>
+               <Location
+                  uuid = "AC454D57-216C-496E-815F-10E0F535F0E1 - 603a9620daf8d95"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ZBus_Ticket.Core.setIsNotNewUser() -&gt; ()"
+                  moduleName = "ZBus-Ticket"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zeynepozcan/Desktop/deneme/dene/onboarding/login/ZBus-Ticket/ZBus-Ticket/Controllers/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "104"
+                  endingLineNumber = "104"
+                  offsetFromSymbolStart = "24">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0DCB1792-C0F6-4E04-9377-8D3CAAA9361F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ZBus-Ticket/Controllers/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "99"
+            endingLineNumber = "99"
+            landmarkName = "isNewUser()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "0DCB1792-C0F6-4E04-9377-8D3CAAA9361F - 78fe079645b05a0c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ZBus_Ticket.Core.isNewUser() -&gt; Swift.Bool"
+                  moduleName = "ZBus-Ticket"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zeynepozcan/Desktop/deneme/dene/onboarding/login/ZBus-Ticket/ZBus-Ticket/Controllers/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "100"
+                  endingLineNumber = "100"
+                  offsetFromSymbolStart = "24">
+               </Location>
+               <Location
+                  uuid = "0DCB1792-C0F6-4E04-9377-8D3CAAA9361F - 78fe079645b05aef"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ZBus_Ticket.Core.isNewUser() -&gt; Swift.Bool"
+                  moduleName = "ZBus-Ticket"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zeynepozcan/Desktop/deneme/dene/onboarding/login/ZBus-Ticket/ZBus-Ticket/Controllers/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "99"
+                  endingLineNumber = "99"
+                  offsetFromSymbolStart = "24">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FE4F2656-669D-45C1-9AC0-B0C5DF94DE99"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ZBus-Ticket/Controllers/SeatsViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "91"
+            endingLineNumber = "91"
+            landmarkName = "purchaseTicket(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E8A83E3C-EE89-4CF6-A18C-AC1A5B94B205"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ZBus-Ticket/Controllers/SeatsViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "92"
+            endingLineNumber = "92"
+            landmarkName = "purchaseTicket(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3C10773C-C253-4672-987F-2C77D7CA3200"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ZBus-Ticket/Controllers/SeatsViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "107"
+            endingLineNumber = "107"
+            landmarkName = "purchaseTicket(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

@@ -1,0 +1,445 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5C6E150D2BAC78A5007D989D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C6E150C2BAC78A5007D989D /* AppDelegate.swift */; };
+		5C6E150F2BAC78A5007D989D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C6E150E2BAC78A5007D989D /* SceneDelegate.swift */; };
+		5C6E15112BAC78A5007D989D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C6E15102BAC78A5007D989D /* ViewController.swift */; };
+		5C6E15142BAC78A5007D989D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C6E15122BAC78A5007D989D /* Main.storyboard */; };
+		5C6E15172BAC78A5007D989D /* ZBus_Ticket.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5C6E15152BAC78A5007D989D /* ZBus_Ticket.xcdatamodeld */; };
+		5C6E15192BAC78A5007D989D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C6E15182BAC78A5007D989D /* Assets.xcassets */; };
+		5C6E151C2BAC78A5007D989D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C6E151A2BAC78A5007D989D /* LaunchScreen.storyboard */; };
+		5C6E15302BACC723007D989D /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C6E152F2BACC723007D989D /* OnboardingViewController.swift */; };
+		5C6E15332BACCC77007D989D /* Ticket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C6E15322BACCC77007D989D /* Ticket.swift */; };
+		5C6E15352BACCCC4007D989D /* Passenger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C6E15342BACCCC4007D989D /* Passenger.swift */; };
+		5C6E15372BACCCD7007D989D /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C6E15362BACCCD7007D989D /* Date.swift */; };
+		5C6E15392BACCCE7007D989D /* Time.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C6E15382BACCCE7007D989D /* Time.swift */; };
+		5C6E15842BAE1423007D989D /* SeatsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C6E15832BAE1423007D989D /* SeatsViewController.swift */; };
+		5C6E15882BAE245A007D989D /* SeatCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C6E15872BAE245A007D989D /* SeatCollectionViewCell.swift */; };
+		5C6E158A2BAE5611007D989D /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C6E15892BAE5611007D989D /* InfoViewController.swift */; };
+		5C8C60362BAEE9F4009B147B /* AlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C8C60352BAEE9F4009B147B /* AlertViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5C6E15092BAC78A5007D989D /* ZBus-Ticket.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ZBus-Ticket.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C6E150C2BAC78A5007D989D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5C6E150E2BAC78A5007D989D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		5C6E15102BAC78A5007D989D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5C6E15132BAC78A5007D989D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5C6E15162BAC78A5007D989D /* ZBus_Ticket.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ZBus_Ticket.xcdatamodel; sourceTree = "<group>"; };
+		5C6E15182BAC78A5007D989D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5C6E151B2BAC78A5007D989D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5C6E151D2BAC78A5007D989D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C6E152F2BACC723007D989D /* OnboardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewController.swift; sourceTree = "<group>"; };
+		5C6E15322BACCC77007D989D /* Ticket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ticket.swift; sourceTree = "<group>"; };
+		5C6E15342BACCCC4007D989D /* Passenger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Passenger.swift; sourceTree = "<group>"; };
+		5C6E15362BACCCD7007D989D /* Date.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
+		5C6E15382BACCCE7007D989D /* Time.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Time.swift; sourceTree = "<group>"; };
+		5C6E15832BAE1423007D989D /* SeatsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeatsViewController.swift; sourceTree = "<group>"; };
+		5C6E15872BAE245A007D989D /* SeatCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeatCollectionViewCell.swift; sourceTree = "<group>"; };
+		5C6E15892BAE5611007D989D /* InfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
+		5C8C60352BAEE9F4009B147B /* AlertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5C6E15062BAC78A5007D989D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5C6E15002BAC78A4007D989D = {
+			isa = PBXGroup;
+			children = (
+				5C6E150B2BAC78A5007D989D /* ZBus-Ticket */,
+				5C6E150A2BAC78A5007D989D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5C6E150A2BAC78A5007D989D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5C6E15092BAC78A5007D989D /* ZBus-Ticket.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5C6E150B2BAC78A5007D989D /* ZBus-Ticket */ = {
+			isa = PBXGroup;
+			children = (
+				5C6E15862BAE2405007D989D /* Cells */,
+				5C6E15312BACCC25007D989D /* Models */,
+				5C6E152D2BACC6F2007D989D /* Controllers */,
+				5C6E150C2BAC78A5007D989D /* AppDelegate.swift */,
+				5C6E150E2BAC78A5007D989D /* SceneDelegate.swift */,
+				5C6E15122BAC78A5007D989D /* Main.storyboard */,
+				5C6E15182BAC78A5007D989D /* Assets.xcassets */,
+				5C6E151A2BAC78A5007D989D /* LaunchScreen.storyboard */,
+				5C6E151D2BAC78A5007D989D /* Info.plist */,
+				5C6E15152BAC78A5007D989D /* ZBus_Ticket.xcdatamodeld */,
+			);
+			path = "ZBus-Ticket";
+			sourceTree = "<group>";
+		};
+		5C6E152D2BACC6F2007D989D /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				5C6E152F2BACC723007D989D /* OnboardingViewController.swift */,
+				5C6E15102BAC78A5007D989D /* ViewController.swift */,
+				5C6E15832BAE1423007D989D /* SeatsViewController.swift */,
+				5C6E15892BAE5611007D989D /* InfoViewController.swift */,
+				5C8C60352BAEE9F4009B147B /* AlertViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		5C6E15312BACCC25007D989D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5C6E15322BACCC77007D989D /* Ticket.swift */,
+				5C6E15342BACCCC4007D989D /* Passenger.swift */,
+				5C6E15362BACCCD7007D989D /* Date.swift */,
+				5C6E15382BACCCE7007D989D /* Time.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		5C6E15862BAE2405007D989D /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				5C6E15872BAE245A007D989D /* SeatCollectionViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5C6E15082BAC78A5007D989D /* ZBus-Ticket */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C6E15202BAC78A5007D989D /* Build configuration list for PBXNativeTarget "ZBus-Ticket" */;
+			buildPhases = (
+				5C6E15052BAC78A5007D989D /* Sources */,
+				5C6E15062BAC78A5007D989D /* Frameworks */,
+				5C6E15072BAC78A5007D989D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ZBus-Ticket";
+			productName = "ZBus-Ticket";
+			productReference = 5C6E15092BAC78A5007D989D /* ZBus-Ticket.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5C6E15012BAC78A4007D989D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					5C6E15082BAC78A5007D989D = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = 5C6E15042BAC78A4007D989D /* Build configuration list for PBXProject "ZBus-Ticket" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5C6E15002BAC78A4007D989D;
+			productRefGroup = 5C6E150A2BAC78A5007D989D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5C6E15082BAC78A5007D989D /* ZBus-Ticket */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5C6E15072BAC78A5007D989D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C6E151C2BAC78A5007D989D /* LaunchScreen.storyboard in Resources */,
+				5C6E15192BAC78A5007D989D /* Assets.xcassets in Resources */,
+				5C6E15142BAC78A5007D989D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5C6E15052BAC78A5007D989D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C6E15112BAC78A5007D989D /* ViewController.swift in Sources */,
+				5C6E15352BACCCC4007D989D /* Passenger.swift in Sources */,
+				5C6E15332BACCC77007D989D /* Ticket.swift in Sources */,
+				5C6E15372BACCCD7007D989D /* Date.swift in Sources */,
+				5C6E150D2BAC78A5007D989D /* AppDelegate.swift in Sources */,
+				5C6E15302BACC723007D989D /* OnboardingViewController.swift in Sources */,
+				5C6E15882BAE245A007D989D /* SeatCollectionViewCell.swift in Sources */,
+				5C6E15392BACCCE7007D989D /* Time.swift in Sources */,
+				5C6E150F2BAC78A5007D989D /* SceneDelegate.swift in Sources */,
+				5C6E15172BAC78A5007D989D /* ZBus_Ticket.xcdatamodeld in Sources */,
+				5C6E158A2BAE5611007D989D /* InfoViewController.swift in Sources */,
+				5C8C60362BAEE9F4009B147B /* AlertViewController.swift in Sources */,
+				5C6E15842BAE1423007D989D /* SeatsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5C6E15122BAC78A5007D989D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5C6E15132BAC78A5007D989D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5C6E151A2BAC78A5007D989D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5C6E151B2BAC78A5007D989D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5C6E151E2BAC78A5007D989D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5C6E151F2BAC78A5007D989D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5C6E15212BAC78A5007D989D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "ZBus-Ticket/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "zeynepozcan.ZBus-Ticket";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5C6E15222BAC78A5007D989D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "ZBus-Ticket/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "zeynepozcan.ZBus-Ticket";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5C6E15042BAC78A4007D989D /* Build configuration list for PBXProject "ZBus-Ticket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C6E151E2BAC78A5007D989D /* Debug */,
+				5C6E151F2BAC78A5007D989D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C6E15202BAC78A5007D989D /* Build configuration list for PBXNativeTarget "ZBus-Ticket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C6E15212BAC78A5007D989D /* Debug */,
+				5C6E15222BAC78A5007D989D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		5C6E15152BAC78A5007D989D /* ZBus_Ticket.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				5C6E15162BAC78A5007D989D /* ZBus_Ticket.xcdatamodel */,
+			);
+			currentVersion = 5C6E15162BAC78A5007D989D /* ZBus_Ticket.xcdatamodel */;
+			path = ZBus_Ticket.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 5C6E15012BAC78A4007D989D /* Project object */;
+}
